@@ -1,3 +1,6 @@
+#!name=Panels
+#!desc=信息面板
+
 [Panel]
 NET_info = script-name=NET_info,update-interval=1
 
