@@ -1,4 +1,4 @@
-#!name=Bing Chat
+#!name=Bing Chat (iOS)
 
 [MITM]
 hostname = %APPEND% www.bing.com
