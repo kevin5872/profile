@@ -1,0 +1,7 @@
+#!name=Bing Chat (Universal)
+
+[Header Rewrite]
+^https:\/\/www\.bing\.com\/(search|new|web) header-replace-regex User-Agent \w+\/[\d\.]+$ "AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0"
+
+[MITM]
+hostname = %APPEND% www.bing.com
