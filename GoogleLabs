@@ -1,0 +1,7 @@
+#!name=Google Labs
+
+[Header Rewrite]
+^https:\/\/labs\.google\.com\/(search) header-replace-regex User-Agent \w+\/[\d\.]+$ "AppleWebKit/537.36 Chrome/112.0 Safari/537.36"
+
+[MITM]
+hostname = %APPEND% labs.bing.com
